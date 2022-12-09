@@ -1,0 +1,45 @@
+@media (min width: 800px)
+{
+    body{background-color: bisque;
+    }
+    p{
+        color: black;
+    }
+}
+@media{max-width: 900px} and {min-width: 800px;}
+
+    body{
+    background-color: aqua; 
+}
+p{ color: black;
+
+}
+h1:hover{
+    font-size: 50px;
+}
+@media{min-width: 350px;} and {max-width: 700;}{
+    
+    body{background-color: yellow;
+    }
+}
+
+h1::after{
+    content: "I have added this text through CSS;" url(/HTML/Image2/pexels-julia-volk-7292745.jpg);
+background-color: grey;
+color: burlywood;
+
+}
+p::after{
+    content: "This is done through CSS";
+}
+
+h1::before{
+    content: "Before Heading one";
+    background-color: azure;
+}
+
+div p[title="second"] {
+    background-color: aquamarine;
+}
+
+#fourth
